@@ -1,6 +1,2 @@
 blinkt
 tweepy
-#numpy
-#requests
-#psutil
-#paho-mqtt
