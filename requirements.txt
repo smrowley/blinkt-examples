@@ -1,0 +1,6 @@
+blinkt
+#numpy
+tweepy
+requests
+psutil
+paho-mqtt

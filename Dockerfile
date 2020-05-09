@@ -2,7 +2,7 @@ FROM python:3.8-slim
 
 RUN apt-get update && \
     apt-get install -y gcc rsync git && \
-    pip install blinkt numpy tweepy requests psutil paho-mqtt && \
+    pip install -r requirements.txt && \
     apt-get clean
 
 RUN git clone --depth 1 https://github.com/pimoroni/blinkt.git && \
